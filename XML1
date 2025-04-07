@@ -1,0 +1,31 @@
+<!-- 
+Nombre: Sergio Morales
+Curso: ASIR1
+Fecha: 06/04/2025
+Ejercicio: XML DTD3
+-->
+
+<!DOCTYPE cuento SYSTEM "cuento.dtd">
+
+<cuento cod="C01" titulo="La aventura del dragón" genero="fantasía">
+    <personajes>
+        <personaje id="p1" tipo="principal">
+            <nombre>Elena</nombre>
+            <genero>Femenino</genero>
+            <descripcion>Una valiente guerrera del norte.</descripcion>
+            <descripcion_fisica>Alta, pelirroja y con armadura dorada.</descripcion_fisica>
+        </personaje>
+        <personaje id="p2">
+            <nombre>Dragón Azul</nombre>
+            <genero>Masculino</genero>
+            <imagen>imagenes/dragon.png</imagen>
+        </personaje>
+    </personajes>
+
+    <trama>Elena debe enfrentarse al Dragón Azul para salvar su reino.</trama>
+
+    <etiqueta nombre="aventura"/>
+    <etiqueta nombre="fantasía"/>
+
+    <precio moneda="oro">50</precio>
+</cuento>
