@@ -1,0 +1,24 @@
+<!-- 
+Nombre: Sergio Morales
+Curso: ASIR1
+Fecha: 06/04/2025
+Ejercicio: XML DTD3
+-->
+
+<!DOCTYPE cuento SYSTEM "cuento.dtd">
+
+<cuento cod="C02" titulo="La máquina del tiempo">
+    <personajes>
+        <personaje id="p1">
+            <nombre>Dr. Tempus</nombre>
+            <genero>Masculino</genero>
+            <descripcion>Inventor brillante del siglo XXI.</descripcion>
+            <url>https://personajes.invento.com/dr_tempus</url>
+        </personaje>
+    </personajes>
+
+    <trama>Dr. Tempus viaja al pasado para evitar una catástrofe global.</trama>
+
+    <etiqueta nombre="ciencia ficción"/>
+    <etiqueta nombre="viajes en el tiempo"/>
+</cuento>
